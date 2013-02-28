@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F998A5616DEE1D100555E14 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5516DEE1D100555E14 /* LoginViewController.m */; };
+		1F998A5916DEE1E400555E14 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5816DEE1E400555E14 /* RegisterViewController.m */; };
+		1F998A5C16DEE1F700555E14 /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5B16DEE1F700555E14 /* HomepageViewController.m */; };
+		1F998A5F16DEE21800555E14 /* TutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5E16DEE21800555E14 /* TutorialViewController.m */; };
+		1F998A6216DEE23500555E14 /* WriteToSoldierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6116DEE23500555E14 /* WriteToSoldierViewController.m */; };
+		1F998A6516DEE24400555E14 /* ApproveMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6416DEE24400555E14 /* ApproveMessageViewController.m */; };
+		1F998A6816DEE25700555E14 /* LeaderboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6716DEE25700555E14 /* LeaderboardViewController.m */; };
+		1F998A6B16DEE27500555E14 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6A16DEE27400555E14 /* ProfileViewController.m */; };
+		1F998A6E16DEE28D00555E14 /* MessageHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6D16DEE28C00555E14 /* MessageHistoryViewController.m */; };
+		1F998A7116DEE2A300555E14 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A7016DEE2A300555E14 /* AboutUsViewController.m */; };
+		1F998A7416DEE2BB00555E14 /* MedalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A7316DEE2BB00555E14 /* MedalsViewController.m */; };
 		D4547EE716B9F2BC0029B5A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE616B9F2BC0029B5A5 /* UIKit.framework */; };
 		D4547EE916B9F2BC0029B5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE816B9F2BC0029B5A5 /* Foundation.framework */; };
 		D4547EEB16B9F2BC0029B5A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EEA16B9F2BC0029B5A5 /* CoreGraphics.framework */; };
@@ -18,8 +29,6 @@
 		D4547EFD16B9F2BC0029B5A5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4547EFC16B9F2BC0029B5A5 /* Default-568h@2x.png */; };
 		D4547F0016B9F2BD0029B5A5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4547EFE16B9F2BC0029B5A5 /* MainStoryboard_iPhone.storyboard */; };
 		D4547F0316B9F2BD0029B5A5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4547F0116B9F2BD0029B5A5 /* MainStoryboard_iPad.storyboard */; };
-		D4547F0616B9F2BD0029B5A5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4547F0516B9F2BD0029B5A5 /* MasterViewController.m */; };
-		D4547F0916B9F2BD0029B5A5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4547F0816B9F2BD0029B5A5 /* DetailViewController.m */; };
 		D4547F1116B9F2BD0029B5A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547F1016B9F2BD0029B5A5 /* SenTestingKit.framework */; };
 		D4547F1216B9F2BD0029B5A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE616B9F2BC0029B5A5 /* UIKit.framework */; };
 		D4547F1316B9F2BD0029B5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE816B9F2BC0029B5A5 /* Foundation.framework */; };
@@ -38,6 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F998A5416DEE1D100555E14 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1F998A5516DEE1D100555E14 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1F998A5716DEE1E400555E14 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		1F998A5816DEE1E400555E14 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		1F998A5A16DEE1F700555E14 /* HomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageViewController.h; sourceTree = "<group>"; };
+		1F998A5B16DEE1F700555E14 /* HomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageViewController.m; sourceTree = "<group>"; };
+		1F998A5D16DEE21800555E14 /* TutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialViewController.h; sourceTree = "<group>"; };
+		1F998A5E16DEE21800555E14 /* TutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialViewController.m; sourceTree = "<group>"; };
+		1F998A6016DEE23400555E14 /* WriteToSoldierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteToSoldierViewController.h; sourceTree = "<group>"; };
+		1F998A6116DEE23500555E14 /* WriteToSoldierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteToSoldierViewController.m; sourceTree = "<group>"; };
+		1F998A6316DEE24400555E14 /* ApproveMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApproveMessageViewController.h; sourceTree = "<group>"; };
+		1F998A6416DEE24400555E14 /* ApproveMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApproveMessageViewController.m; sourceTree = "<group>"; };
+		1F998A6616DEE25700555E14 /* LeaderboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardViewController.h; sourceTree = "<group>"; };
+		1F998A6716DEE25700555E14 /* LeaderboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardViewController.m; sourceTree = "<group>"; };
+		1F998A6916DEE27400555E14 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		1F998A6A16DEE27400555E14 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		1F998A6C16DEE28C00555E14 /* MessageHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageHistoryViewController.h; sourceTree = "<group>"; };
+		1F998A6D16DEE28C00555E14 /* MessageHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageHistoryViewController.m; sourceTree = "<group>"; };
+		1F998A6F16DEE2A300555E14 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		1F998A7016DEE2A300555E14 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		1F998A7216DEE2BB00555E14 /* MedalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedalsViewController.h; sourceTree = "<group>"; };
+		1F998A7316DEE2BB00555E14 /* MedalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedalsViewController.m; sourceTree = "<group>"; };
 		D4547EE216B9F2BC0029B5A5 /* User Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4547EE616B9F2BC0029B5A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4547EE816B9F2BC0029B5A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,10 +84,6 @@
 		D4547EFC16B9F2BC0029B5A5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D4547EFF16B9F2BD0029B5A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D4547F0216B9F2BD0029B5A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D4547F0416B9F2BD0029B5A5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D4547F0516B9F2BD0029B5A5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D4547F0716B9F2BD0029B5A5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D4547F0816B9F2BD0029B5A5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D4547F0F16B9F2BD0029B5A5 /* User ProfileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User ProfileTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4547F1016B9F2BD0029B5A5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D4547F1816B9F2BD0029B5A5 /* User ProfileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User ProfileTests-Info.plist"; sourceTree = "<group>"; };
@@ -124,12 +151,30 @@
 			children = (
 				D4547EF516B9F2BC0029B5A5 /* AppDelegate.h */,
 				D4547EF616B9F2BC0029B5A5 /* AppDelegate.m */,
+				1F998A5416DEE1D100555E14 /* LoginViewController.h */,
+				1F998A5516DEE1D100555E14 /* LoginViewController.m */,
+				1F998A5716DEE1E400555E14 /* RegisterViewController.h */,
+				1F998A5816DEE1E400555E14 /* RegisterViewController.m */,
+				1F998A5A16DEE1F700555E14 /* HomepageViewController.h */,
+				1F998A5B16DEE1F700555E14 /* HomepageViewController.m */,
+				1F998A5D16DEE21800555E14 /* TutorialViewController.h */,
+				1F998A5E16DEE21800555E14 /* TutorialViewController.m */,
+				1F998A6016DEE23400555E14 /* WriteToSoldierViewController.h */,
+				1F998A6116DEE23500555E14 /* WriteToSoldierViewController.m */,
+				1F998A6316DEE24400555E14 /* ApproveMessageViewController.h */,
+				1F998A6416DEE24400555E14 /* ApproveMessageViewController.m */,
+				1F998A6616DEE25700555E14 /* LeaderboardViewController.h */,
+				1F998A6716DEE25700555E14 /* LeaderboardViewController.m */,
+				1F998A6916DEE27400555E14 /* ProfileViewController.h */,
+				1F998A6A16DEE27400555E14 /* ProfileViewController.m */,
+				1F998A6C16DEE28C00555E14 /* MessageHistoryViewController.h */,
+				1F998A6D16DEE28C00555E14 /* MessageHistoryViewController.m */,
+				1F998A6F16DEE2A300555E14 /* AboutUsViewController.h */,
+				1F998A7016DEE2A300555E14 /* AboutUsViewController.m */,
+				1F998A7216DEE2BB00555E14 /* MedalsViewController.h */,
+				1F998A7316DEE2BB00555E14 /* MedalsViewController.m */,
 				D4547EFE16B9F2BC0029B5A5 /* MainStoryboard_iPhone.storyboard */,
 				D4547F0116B9F2BD0029B5A5 /* MainStoryboard_iPad.storyboard */,
-				D4547F0416B9F2BD0029B5A5 /* MasterViewController.h */,
-				D4547F0516B9F2BD0029B5A5 /* MasterViewController.m */,
-				D4547F0716B9F2BD0029B5A5 /* DetailViewController.h */,
-				D4547F0816B9F2BD0029B5A5 /* DetailViewController.m */,
 				D4547EED16B9F2BC0029B5A5 /* Supporting Files */,
 			);
 			path = "User Profile";
@@ -281,8 +326,17 @@
 			files = (
 				D4547EF316B9F2BC0029B5A5 /* main.m in Sources */,
 				D4547EF716B9F2BC0029B5A5 /* AppDelegate.m in Sources */,
-				D4547F0616B9F2BD0029B5A5 /* MasterViewController.m in Sources */,
-				D4547F0916B9F2BD0029B5A5 /* DetailViewController.m in Sources */,
+				1F998A5616DEE1D100555E14 /* LoginViewController.m in Sources */,
+				1F998A5916DEE1E400555E14 /* RegisterViewController.m in Sources */,
+				1F998A5C16DEE1F700555E14 /* HomepageViewController.m in Sources */,
+				1F998A5F16DEE21800555E14 /* TutorialViewController.m in Sources */,
+				1F998A6216DEE23500555E14 /* WriteToSoldierViewController.m in Sources */,
+				1F998A6516DEE24400555E14 /* ApproveMessageViewController.m in Sources */,
+				1F998A6816DEE25700555E14 /* LeaderboardViewController.m in Sources */,
+				1F998A6B16DEE27500555E14 /* ProfileViewController.m in Sources */,
+				1F998A6E16DEE28D00555E14 /* MessageHistoryViewController.m in Sources */,
+				1F998A7116DEE2A300555E14 /* AboutUsViewController.m in Sources */,
+				1F998A7416DEE2BB00555E14 /* MedalsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +521,7 @@
 				D4547F2316B9F2BD0029B5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4547F2416B9F2BD0029B5A5 /* Build configuration list for PBXNativeTarget "User ProfileTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +530,7 @@
 				D4547F2616B9F2BD0029B5A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
