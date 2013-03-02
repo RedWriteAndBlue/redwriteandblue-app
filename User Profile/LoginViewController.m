@@ -35,4 +35,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)textFieldDidEndEditing:(UITextField *)textField {
+    [UIView animateWithDuration:0.3 animations:^{
+        self.view.center = CGPointMake(self.view.center.x, self.view.center.y+50);
+    }];
+}
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    [UIView animateWithDuration:0.3 animations:^{
+        self.view.center = CGPointMake(self.view.center.x, self.view.center.y-50);
+    }];
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
+}
+
 @end
