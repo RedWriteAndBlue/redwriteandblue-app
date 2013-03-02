@@ -18,6 +18,8 @@
 		1F998A6E16DEE28D00555E14 /* MessageHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A6D16DEE28C00555E14 /* MessageHistoryViewController.m */; };
 		1F998A7116DEE2A300555E14 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A7016DEE2A300555E14 /* AboutUsViewController.m */; };
 		1F998A7416DEE2BB00555E14 /* MedalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A7316DEE2BB00555E14 /* MedalsViewController.m */; };
+		7AC3177F16E296A900825800 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3177E16E296A900825800 /* User.m */; };
+		7AC3178216E29FE800825800 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC3178116E29FE800825800 /* Message.m */; };
 		D4547EE716B9F2BC0029B5A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE616B9F2BC0029B5A5 /* UIKit.framework */; };
 		D4547EE916B9F2BC0029B5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EE816B9F2BC0029B5A5 /* Foundation.framework */; };
 		D4547EEB16B9F2BC0029B5A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547EEA16B9F2BC0029B5A5 /* CoreGraphics.framework */; };
@@ -69,6 +71,10 @@
 		1F998A7016DEE2A300555E14 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
 		1F998A7216DEE2BB00555E14 /* MedalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedalsViewController.h; sourceTree = "<group>"; };
 		1F998A7316DEE2BB00555E14 /* MedalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedalsViewController.m; sourceTree = "<group>"; };
+		7AC3177D16E296A900825800 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		7AC3177E16E296A900825800 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		7AC3178016E29FE800825800 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		7AC3178116E29FE800825800 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		D4547EE216B9F2BC0029B5A5 /* User Profile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Profile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4547EE616B9F2BC0029B5A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4547EE816B9F2BC0029B5A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +125,10 @@
 		D4547ED716B9F2BC0029B5A5 = {
 			isa = PBXGroup;
 			children = (
+				7AC3177D16E296A900825800 /* User.h */,
+				7AC3177E16E296A900825800 /* User.m */,
+				7AC3178016E29FE800825800 /* Message.h */,
+				7AC3178116E29FE800825800 /* Message.m */,
 				D4547EEC16B9F2BC0029B5A5 /* User Profile */,
 				D4547F1616B9F2BD0029B5A5 /* User ProfileTests */,
 				D4547EE516B9F2BC0029B5A5 /* Frameworks */,
@@ -337,6 +347,8 @@
 				1F998A6E16DEE28D00555E14 /* MessageHistoryViewController.m in Sources */,
 				1F998A7116DEE2A300555E14 /* AboutUsViewController.m in Sources */,
 				1F998A7416DEE2BB00555E14 /* MedalsViewController.m in Sources */,
+				7AC3177F16E296A900825800 /* User.m in Sources */,
+				7AC3178216E29FE800825800 /* Message.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
