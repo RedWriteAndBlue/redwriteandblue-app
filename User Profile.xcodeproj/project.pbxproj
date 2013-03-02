@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F19DFDF16E29C070012172A /* starOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFDD16E29C070012172A /* starOutline.png */; };
+		1F19DFE016E29C070012172A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFDE16E29C070012172A /* star.png */; };
+		1F19DFE316E29CC10012172A /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE116E29CC10012172A /* badge.png */; };
+		1F19DFE416E29CC10012172A /* badgeList.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE216E29CC10012172A /* badgeList.png */; };
 		1F998A5616DEE1D100555E14 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5516DEE1D100555E14 /* LoginViewController.m */; };
 		1F998A5916DEE1E400555E14 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5816DEE1E400555E14 /* RegisterViewController.m */; };
 		1F998A5C16DEE1F700555E14 /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5B16DEE1F700555E14 /* HomepageViewController.m */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F19DFDD16E29C070012172A /* starOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starOutline.png; sourceTree = "<group>"; };
+		1F19DFDE16E29C070012172A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		1F19DFE116E29CC10012172A /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+		1F19DFE216E29CC10012172A /* badgeList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badgeList.png; sourceTree = "<group>"; };
 		1F998A5416DEE1D100555E14 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F998A5516DEE1D100555E14 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1F998A5716DEE1E400555E14 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -116,6 +124,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F19DFDC16E29BF90012172A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1F19DFE116E29CC10012172A /* badge.png */,
+				1F19DFE216E29CC10012172A /* badgeList.png */,
+				1F19DFDD16E29C070012172A /* starOutline.png */,
+				1F19DFDE16E29C070012172A /* star.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D4547ED716B9F2BC0029B5A5 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +202,7 @@
 		D4547EED16B9F2BC0029B5A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F19DFDC16E29BF90012172A /* Images */,
 				D4547EEE16B9F2BC0029B5A5 /* User Profile-Info.plist */,
 				D4547EEF16B9F2BC0029B5A5 /* InfoPlist.strings */,
 				D4547EF216B9F2BC0029B5A5 /* main.m */,
@@ -290,6 +310,10 @@
 				D4547EFD16B9F2BC0029B5A5 /* Default-568h@2x.png in Resources */,
 				D4547F0016B9F2BD0029B5A5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D4547F0316B9F2BD0029B5A5 /* MainStoryboard_iPad.storyboard in Resources */,
+				1F19DFDF16E29C070012172A /* starOutline.png in Resources */,
+				1F19DFE016E29C070012172A /* star.png in Resources */,
+				1F19DFE316E29CC10012172A /* badge.png in Resources */,
+				1F19DFE416E29CC10012172A /* badgeList.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
