@@ -11,6 +11,12 @@
 		1F19DFE016E29C070012172A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFDE16E29C070012172A /* star.png */; };
 		1F19DFE316E29CC10012172A /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE116E29CC10012172A /* badge.png */; };
 		1F19DFE416E29CC10012172A /* badgeList.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE216E29CC10012172A /* badgeList.png */; };
+		1F19DFE816E2AD950012172A /* logo_Ford.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE516E2AD950012172A /* logo_Ford.png */; };
+		1F19DFE916E2AD950012172A /* logo_Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE616E2AD950012172A /* logo_Target.png */; };
+		1F19DFEA16E2AD950012172A /* Logo_American-Apparel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFE716E2AD950012172A /* Logo_American-Apparel.png */; };
+		1F19DFEE16E2B19B0012172A /* medal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFED16E2B19B0012172A /* medal.png */; };
+		1F19DFF016E2B3500012172A /* medalPlaceholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFEF16E2B3500012172A /* medalPlaceholder.png */; };
+		1F19DFF216E2B3CF0012172A /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F19DFF116E2B3CF0012172A /* check.png */; };
 		1F998A5616DEE1D100555E14 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5516DEE1D100555E14 /* LoginViewController.m */; };
 		1F998A5916DEE1E400555E14 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5816DEE1E400555E14 /* RegisterViewController.m */; };
 		1F998A5C16DEE1F700555E14 /* HomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F998A5B16DEE1F700555E14 /* HomepageViewController.m */; };
@@ -57,6 +63,12 @@
 		1F19DFDE16E29C070012172A /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		1F19DFE116E29CC10012172A /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
 		1F19DFE216E29CC10012172A /* badgeList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badgeList.png; sourceTree = "<group>"; };
+		1F19DFE516E2AD950012172A /* logo_Ford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_Ford.png; sourceTree = "<group>"; };
+		1F19DFE616E2AD950012172A /* logo_Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_Target.png; sourceTree = "<group>"; };
+		1F19DFE716E2AD950012172A /* Logo_American-Apparel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo_American-Apparel.png"; sourceTree = "<group>"; };
+		1F19DFED16E2B19B0012172A /* medal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medal.png; sourceTree = "<group>"; };
+		1F19DFEF16E2B3500012172A /* medalPlaceholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medalPlaceholder.png; sourceTree = "<group>"; };
+		1F19DFF116E2B3CF0012172A /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
 		1F998A5416DEE1D100555E14 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F998A5516DEE1D100555E14 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1F998A5716DEE1E400555E14 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -133,6 +145,12 @@
 		1F19DFDC16E29BF90012172A /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1F19DFF116E2B3CF0012172A /* check.png */,
+				1F19DFEF16E2B3500012172A /* medalPlaceholder.png */,
+				1F19DFED16E2B19B0012172A /* medal.png */,
+				1F19DFE516E2AD950012172A /* logo_Ford.png */,
+				1F19DFE616E2AD950012172A /* logo_Target.png */,
+				1F19DFE716E2AD950012172A /* Logo_American-Apparel.png */,
 				1F19DFE116E29CC10012172A /* badge.png */,
 				1F19DFE216E29CC10012172A /* badgeList.png */,
 				1F19DFDD16E29C070012172A /* starOutline.png */,
@@ -324,6 +342,12 @@
 				1F19DFE016E29C070012172A /* star.png in Resources */,
 				1F19DFE316E29CC10012172A /* badge.png in Resources */,
 				1F19DFE416E29CC10012172A /* badgeList.png in Resources */,
+				1F19DFE816E2AD950012172A /* logo_Ford.png in Resources */,
+				1F19DFE916E2AD950012172A /* logo_Target.png in Resources */,
+				1F19DFEA16E2AD950012172A /* Logo_American-Apparel.png in Resources */,
+				1F19DFEE16E2B19B0012172A /* medal.png in Resources */,
+				1F19DFF016E2B3500012172A /* medalPlaceholder.png in Resources */,
+				1F19DFF216E2B3CF0012172A /* check.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
