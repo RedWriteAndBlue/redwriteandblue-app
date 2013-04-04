@@ -1,32 +1,26 @@
 //
 //  Message.h
-//  User Profile
+//  Red Write Blue
 //
-//  Created by Nussbaum, Brian, Edward on 3/2/13.
-//  Copyright (c) 2013 Takamichi Suzuki. All rights reserved.
+//  Created by Chenkai Liu on 4/3/13.
+//  Copyright (c) 2013 RedWriteBlue. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+@class User;
 @interface Message : NSObject {
-
-    NSString *user;
     NSString *text;
-    NSString *messageid;
-    int rating;
-    int sentstatus;
+    float rating;
+    User *user;
     NSDate *timestamp;
-    
+    int messageID;
 }
 
-@property (nonatomic, retain) NSString *user;
 @property (nonatomic, retain) NSString *text;
-@property (nonatomic, retain) NSString *messageid;
-@property (nonatomic) int rating;
-@property (nonatomic) int sentstatus;
+@property (nonatomic) float rating;
+@property (nonatomic) int messageID;
 @property (nonatomic, retain) NSDate *timestamp;
-
-
-
+@property (nonatomic, retain) User *user;
 
 @end

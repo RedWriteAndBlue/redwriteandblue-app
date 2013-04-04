@@ -1,34 +1,27 @@
 //
 //  User.h
-//  User Profile
+//  Red Write Blue
 //
-//  Created by Nussbaum, Brian, Edward on 3/2/13.
-//  Copyright (c) 2013 Takamichi Suzuki. All rights reserved.
+//  Created by Chenkai Liu on 4/3/13.
+//  Copyright (c) 2013 RedWriteBlue. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @interface User : NSObject {
-
     NSString *email;
     NSString *username;
-    NSString *rank;
-     int meritpoints;
-    NSMutableArray *achievement;
-    NSMutableArray *message;
-    
-//    NSDate *time;
-    
+    NSMutableArray *achievements;
+    NSMutableArray *messages;
+    int rank;
+    int MP_Points;
 }
 
 @property (nonatomic, retain) NSString *email;
 @property (nonatomic, retain) NSString *username;
-@property (nonatomic, retain) NSString *rank;
-@property (nonatomic) int meritPoints;
-@property (nonatomic, retain) NSMutableArray *achievement;
-@property (nonatomic, retain) NSMutableArray *message;
-
-
-
+@property (nonatomic, retain) NSMutableArray *achievements;
+@property (nonatomic, retain) NSMutableArray *messages;
+@property (nonatomic) int rank;
+@property (nonatomic) int MP_Points;
 
 @end

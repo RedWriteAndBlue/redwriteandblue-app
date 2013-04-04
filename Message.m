@@ -1,20 +1,26 @@
 //
 //  Message.m
-//  User Profile
+//  Red Write Blue
 //
-//  Created by Nussbaum, Brian, Edward on 3/2/13.
-//  Copyright (c) 2013 Takamichi Suzuki. All rights reserved.
+//  Created by Chenkai Liu on 4/3/13.
+//  Copyright (c) 2013 RedWriteBlue. All rights reserved.
 //
 
 #import "Message.h"
 
 @implementation Message
-@synthesize user;
 @synthesize text;
-@synthesize messageid;
 @synthesize rating;
-@synthesize sentstatus;
+@synthesize user;
 @synthesize timestamp;
+@synthesize messageID;
 
+-(id) initWithDict:(NSDictionary*)dict {
+    self = [super init];
+    
+    // Parse message here
+    
+    return self;
+}
 
 @end

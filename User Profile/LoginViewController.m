@@ -7,6 +7,8 @@
 //
 
 #import "LoginViewController.h"
+#import "AppState.h"
+#import "RWB_IO.h"
 
 @interface LoginViewController ()
 
@@ -26,6 +28,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+//    [[AppState sharedInstance].io signUpWithUsername:@"hello" password:@"pass" email:@"blah@aol.com"];
+//    [[AppState sharedInstance].io loginWithUser:@"myusername" pass:@"mypass"];
+    [[AppState sharedInstance].io getUserProfile:5];
+//    [[AppState sharedInstance].io getLeaderboard];
+    
 	// Do any additional setup after loading the view.
 }
 

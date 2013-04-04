@@ -1,9 +1,9 @@
 //
 //  User.m
-//  User Profile
+//  Red Write Blue
 //
-//  Created by Nussbaum, Brian, Edward on 3/2/13.
-//  Copyright (c) 2013 Takamichi Suzuki. All rights reserved.
+//  Created by Chenkai Liu on 4/3/13.
+//  Copyright (c) 2013 RedWriteBlue. All rights reserved.
 //
 
 #import "User.h"
@@ -11,11 +11,26 @@
 @implementation User
 @synthesize email;
 @synthesize username;
+@synthesize achievements;
+@synthesize messages;
 @synthesize rank;
-@synthesize meritPoints;
-@synthesize achievement;
-@synthesize message;
+@synthesize MP_Points;
 
+-(id) initWithDict:(NSDictionary*) dict {
+    
+    self = [User init];
+    
+    // Parse user struct here
+    
+    return self;
+}
+
+-(id) init {
+    self = [super init];
+    self.achievements = [[NSMutableArray alloc]init];
+    self.messages = [[NSMutableArray alloc]init];
+    return self;
+}
 
 
 @end

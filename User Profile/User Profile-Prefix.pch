@@ -11,4 +11,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "Config.h"
+    #import "RWB_IO.h"
+    #import "AppState.h"
 #endif
